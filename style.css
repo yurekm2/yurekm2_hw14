@@ -59,6 +59,7 @@ img {
   justify-items: center;
   width: 600px;
   justify-content: end;
+  align-items: stretch;
 }
 
 .mudkip  {
