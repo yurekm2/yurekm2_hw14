@@ -60,8 +60,9 @@ img {
   width: 600px;
   justify-content: end;
   align-items: stretch;
-  height: 1000px;
+  /*height: 1000px;*/
   align-content: center;
+  grid-auto-rows: 150px;
 }
 
 .mudkip  {
