@@ -66,6 +66,7 @@ img {
 
 .mudkip  {
   grid-area: mudkip;
+  justify-self: end;
 }
 
 .piplup {
