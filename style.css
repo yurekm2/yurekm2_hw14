@@ -48,27 +48,34 @@ img {
 
 /*start editing for exercise below */
 .grid {
-  
+  display: grid;
+  grid-template-areas:
+    "mudkip mudkip"
+    "piplup piplup"
+    "chimcahr cyndaquil"
+    "torchic torchic";
+  grid-template-columns: 200px 300px;
+  grid-template-rows: 150px 200px 300px 200px;
 }
 
 .mudkip  {
- 
+  grid-area: mudkip;
 }
 
 .piplup {
-
+  grid-area: piplup;
 }
 
 .chimchar {
-
+  grid-area: chimchar;
 }
 
 .cyndaquil {
- 
+  grid-area:: cyndaquil;
 }
 
 .torchic{
-  
+  grid-area: torchic;
 }
 
 .overlap-grid {
